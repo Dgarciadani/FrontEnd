@@ -1,3 +1,4 @@
+
 body{
     background-color: #E5E5E5   ;
 }
@@ -17,9 +18,29 @@ main{
     background-color: white;
 }
 footer{
-    background-color: white;
+    background-color:#005677;
+    color: #ffff;
+    text-align: center;
+
+
 }
 .cuerpo{
     width: 70%;
     margin: 0 auto;
+}
+h2{
+    color: #005677;
+    background-color: #c4c4c4;
+}
+span{
+    font-style:italic;
+    font-weight: bold;
+}
+i{
+    font-style: normal;
+    font-stretch:extra-expanded;
+    font-weight: bold;
+}
+dt{
+    font-weight: bold;
 }
