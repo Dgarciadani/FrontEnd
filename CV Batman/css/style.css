@@ -11,18 +11,14 @@ body{
 h1{
     background-color: #c4c4c4  ;
     color: #005677;
+    font-size: 35px;
     text-align: center;
+    letter-spacing: .35cm;
+    word-spacing: .35cm;
 }
 main{
     
     background-color: white;
-}
-footer{
-    background-color:#005677;
-    color: #ffff;
-    text-align: center;
-
-
 }
 .cuerpo{
     width: 70%;
@@ -36,11 +32,29 @@ span{
     font-style:italic;
     font-weight: bold;
 }
-i{
-    font-style: normal;
-    font-stretch:extra-expanded;
+dt{
+    text-align: left;
     font-weight: bold;
 }
-dt{
+dd{
+    text-align: left;
+}
+
+li{
+    line-height: 22px;
+}
+a{
+    margin: 10px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: #005677;
+    line-height: 40px;
+}
+i{
+    font-style: normal;
+    color: #E5E5E5;
     font-weight: bold;
+    font-size: 20px;
 }
