@@ -1,0 +1,23 @@
+
+/* primero van los estilos generales*/
+/* los de h y los p*/
+/* lo mejor es siempre crear una clase antes que de tocar manualmente las caracteristicas en el html*/
+.title-imp{
+color:white;
+
+
+}
+#h2{ /*Tendria que tener algun elemento con id=h2 para que lo tome a estos estilos*/
+color: aqua;
+background-color: brown;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+text-transform: uppercase;
+/*NO HAY JERARQUIA DENTRO DE ESTO, EL ORDEN NO IMPORTA, SE PUEDE USAR EL ORDEN ALFABETICO, PERO NO ES TAN USADO*/
+font-size: 2px;
+/*los Font-size son heredables, pero se sobreescriben para poder definir lo que tiene el hijo*/
+} 
+p{
+    font-size: 2em; /*distinto de REM, este toma el valor de su padre, y lo multiplica x2, rem hace lo mismo pero tomadno el valor del navegador, el standart es 16px*/
+}
