@@ -1,0 +1,52 @@
+/*Header*/
+/*Main*/
+@import url("https://use.typekit.net/hdb4hwe.css");
+h1{
+    color:white;
+    font-family: montserrat-alternates, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.banner p {
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.banner{
+    background-color: antiquewhite;
+    background-image: url("../img/lemon-pie.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: 30% 40%;
+}
+body li{
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+body 
+body h3{
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body h2{
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/*.banner{
+    background-color: aliceblue url("../img/lemon-pie.svg");  no-repeat;
+    
+    
+    ESCRITO CON ATAJOS; TODOS MENOS SIZE SE PUEDE PONER COMO ATAJO*/
+ /*Footer*/
+footer p{
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
