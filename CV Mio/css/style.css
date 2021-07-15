@@ -1,0 +1,29 @@
+@import url("https://use.typekit.net/hdb4hwe.css");
+.yo{
+    background-color: #00315C ;
+    background-image: url("../img/521111.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 900px;
+    background-position: 30% 40%;
+    align-items: center;
+    text-align: center;
+    
+}
+.yo h1{
+    color: #E8E7EA;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.yo a{
+    color: #E8E7EA;
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.yo img{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
