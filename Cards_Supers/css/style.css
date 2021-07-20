@@ -1,0 +1,37 @@
+@import url("https://use.typekit.net/hdb4hwe.css");
+
+/*HEADER*/
+header .dto {
+background-color:#1CD1B0;
+height: 30px;
+margin: 0;
+}
+header p{
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    margin: 0;
+}
+header h1{
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:white;
+    background-color: #00669F;
+}
+
+/*MAIN*/
+
+/*FOOTER*/
+
+footer p{
+    color:white;
+    background-color: #00669F;
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+footer span{
+    
+}

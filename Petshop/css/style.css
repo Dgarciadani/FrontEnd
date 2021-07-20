@@ -1,4 +1,4 @@
-
+@import url("https://use.typekit.net/hdb4hwe.css");
 /* primero van los estilos generales*/
 /* los de h y los p*/
 /* lo mejor es siempre crear una clase antes que de tocar manualmente las caracteristicas en el html*/
@@ -19,5 +19,54 @@ font-size: 2px;
 /*los Font-size son heredables, pero se sobreescriben para poder definir lo que tiene el hijo*/
 } 
 p{
-    font-size: 2em; /*distinto de REM, este toma el valor de su padre, y lo multiplica x2, rem hace lo mismo pero tomadno el valor del navegador, el standart es 16px*/
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    /*font-size: 2em; /*distinto de REM, este toma el valor de su padre, y lo multiplica x2, rem hace lo mismo pero tomadno el valor del navegador, el standart es 16px*/
+}
+.top{
+    background-color: black;
+}
+.top i{
+    font-family: montserrat, sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    color: white;
+}
+.identidad{
+    background-color: #F0A83E;
+}
+.identidad span{
+    color: white;
+}
+.identidad img{
+  height: 30px;
+}
+nav a{
+    
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    
+}
+.pata{
+    align-items: center;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+footer{
+    background-color: #222222   ;
+    line-height: 30px;
+
+
+}
+footer p{
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
 }

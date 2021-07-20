@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
-    <!--hay que enlazar el htm al css--><!--se pueden tener varios links y estilos externos enlazados pero el nuestro tiene que quedar al ultimo para que no se sobreescriba,-->
+    <!--hay que enlazar el htm al css-->
+    <!--se pueden tener varios links y estilos externos enlazados pero el nuestro tiene que quedar al ultimo para que no se sobreescriba,-->
     <link rel="stylesheet" href="css/style.css">
-<style>
+    <style>
 
-</style>
+    </style>
 </head>
 
 <body>
     <header>
-        <div>
-            <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>ARG$</p>
+        <div class="top">
+            <i>Grandes ofertas en comederos</i>
+            <div class="zona">
+                <i>Español</i>
+                <i>ARG$</i>
+            </div>
         </div>
-        <div>
+        <div class="identidad">
             <img src="img/Cat.svg" alt="Cat">
-            <h1>Front Cat&Dog</h1>
+            <h1>Front <span> Cat&Dog</span></h1>
             <img src="img/Dog.svg" alt="Dog">
             <nav>
-                <ul>
+                <ul type="none">
                     <li><a href="#categorias">Cateogorias</a></li>
                     <li><a href="#pets">Pets</a></li>
                     <li><a href="#nosotros">Nosotros</a></li>
@@ -39,15 +42,17 @@
             <div>
                 <!--HerO-->
                 <img src="img/bowl-and-pet-daities-on-green-background.svg" alt="Banner Principal">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <p>COMEDEROS</p>
+                <p>¡Es un placer tenerte aquí!</p>
+                <p>¡Comederos en descuento!</p>
+                <p>COMEDEROS</p>
             </div>
         </section>
         <section>
-            <!--PRODUCTOS-->
-            <img src="img/pawprint.svg" alt="Patita">
-            <h2>Productos Destacados</h2>
+            <div class="pata">
+                <!--PRODUCTOS-->
+                <img src="img/pawprint.svg" alt="Patita">
+                <h2>Productos Destacados</h2>
+            </div>
             <ul>
                 <li type="none">Comederos</li>
                 <li type="none">Accesorios</li>
@@ -75,7 +80,7 @@
         <section> </section>
     </main>
     <footer>
-        <p align="center">Todos los derechos reservados Front End</p>
+        <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>
 
