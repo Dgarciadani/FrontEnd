@@ -61,6 +61,9 @@ img{
     position: relative;
     bottom: 55px;
 }
+img:hover{
+    transform: scale(1.1);
+}
 .card h2{
     padding-bottom: 20px;
 }
@@ -77,6 +80,9 @@ input{
     margin-top: 25px;
    
 }
+input:hover{
+    background-color: var(--Secondary-color);
+}
 .BG-Harley{
     background-image: url("../img/Harley-back.png");
     height: 193px;
@@ -91,4 +97,14 @@ input{
     top: 20px;
     left: 20px;
 }
+.vector:hover{
+    transform: scale(1.1);
+}
 /*-----FOOTER----*/
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    color: white;
+}
