@@ -1,37 +1,94 @@
-@import url("https://use.typekit.net/hdb4hwe.css");
-
-/*HEADER*/
-header .dto {
-background-color:#1CD1B0;
-height: 30px;
-margin: 0;
-}
-header p{
-    font-family: montserrat, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: white;
+@import url("https://use.typekit.net/isi5hfe.css");
+/*GENERALES*/
+*{
+    box-sizing: border-box;
     margin: 0;
 }
-header h1{
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color:white;
-    background-color: #00669F;
-}
-
-/*MAIN*/
-
-/*FOOTER*/
-
-footer p{
-    color:white;
-    background-color: #00669F;
-    font-family: montserrat, sans-serif;
+body{
+    font-family: roboto,sans-serif;
     font-weight: 100;
     font-style: normal;
 }
-footer span{
-    
+:root{
+    --primary-color: #00669F;
+    --Secondary-color:#1CD1B0;
+    --tercer-color:#F3F3F3;
+
 }
+body>div{
+ background-color: var(--Secondary-color);
+ height: 38px;
+}
+body>div>p{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+/*-------------HEADER------------*/
+header{
+background-color: var(--primary-color);
+height: 101px;
+}
+h1{
+    padding-top: 28px;
+    padding-left: 28px;
+}
+/*-----------MAIN------*/
+main{
+    margin-top: 100px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card{
+    background-color: var(--tercer-color);
+    width: 27%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 18px;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+.BG-Batman{
+    background-image: url("../img/Batman-Back.png");
+    height: 193px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+img{
+    border-radius: 50%;
+    z-index: 5;
+    position: relative;
+    bottom: 55px;
+}
+.card h2{
+    padding-bottom: 20px;
+}
+.card p{
+    text-align: justify;
+    padding: 0px 20px;
+    line-height: 20px;
+}
+input{
+    background-color: var(--primary-color);
+    color: white;
+    width: 40%;
+    height: 40px;
+    margin-top: 25px;
+   
+}
+.BG-Harley{
+    background-image: url("../img/Harley-back.png");
+    height: 193px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.vector{
+    background-image: url("../img/Cora.png");
+    width: 30px;
+    height: 26px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+/*-----FOOTER----*/
