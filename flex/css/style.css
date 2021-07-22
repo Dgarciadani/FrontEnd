@@ -1,0 +1,53 @@
+header{
+    background-color: aquamarine;
+}
+.container{
+    
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 10px;
+}
+
+.contenedor{
+    max-width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+
+}
+.item{
+    background-color: brown;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    flex-basis: 50px;
+}
+.item1{
+    /*TRABAJA SOBRE EL EJE SECUNDARIO*/
+align-self: flex-start;
+
+}
+.item2{
+    order: 2;
+    align-self: flex-end;
+
+}
+.item3{
+    order:-1
+}
+.item4{
+    order:1;
+}

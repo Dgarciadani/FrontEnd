@@ -1,0 +1,91 @@
+/*GENERALES*/
+@import url("https://use.typekit.net/isi5hfe.css");
+
+*{
+    font-family: Roboto;
+}
+/*HEADER*/
+header{
+    background-color:#222222;
+    color: white;
+}
+.Hcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+.logo{
+    display: flex;
+
+}
+.logo img{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 10px;
+}
+header span{
+    color: green;
+}
+/*MAIN*/
+main{
+    background-color: red;
+    width: 95%;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Mcontainer{
+    display: flex;
+    justify-content:space-between;
+}
+.Delivery{
+    background-image: url("/Pizzeria/img/delivery.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 490px;
+    
+}
+.Delivery h2{
+    color: red;
+    padding-left: 19px;
+    font-weight: 700px;
+}
+main span{
+    color: white;
+}
+.Podio{
+    background-color:rebeccapurple;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #222222;
+    margin-top: 35px;   
+}
+.Fcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.Fcontainer ul li{
+    margin: 0px 0px 12px 0px;
+}
+.Sublogo{
+    display: flex;
+    padding-right: 42px ;
+}
+.Sublogo img{
+    padding-right: 10px;
+}
+.Sublogo span{
+    color: green;
+}
