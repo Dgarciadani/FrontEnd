@@ -4,6 +4,9 @@
 *{
     font-family: Roboto;
 }
+body{
+    background-color: #E5E5E5;
+}
 /*HEADER*/
 header{
     background-color:#222222;
@@ -20,12 +23,18 @@ header{
     display: flex;
 
 }
+.logo h1{
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 .logo img{
     padding-left: 20px;
     padding-right: 5px;
 }
 header nav ul{
     display: flex;
+    padding-right: 10px;
 }
 header nav ul li{
     margin: 10px;
@@ -33,10 +42,12 @@ header nav ul li{
 header span{
     color: green;
 }
+.RED{
+    color: red;
+}
 /*MAIN*/
 main{
-    background-color: red;
-    width: 95%;
+    width: 90%;
     margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +61,8 @@ main{
     background-image: url("/Pizzeria/img/delivery.png");
     background-repeat: no-repeat;
     height: 350px;
-    width: 490px;
+    width: 50%;
+    border-radius: 5px;
     
 }
 .Delivery h2{
@@ -62,13 +74,39 @@ main span{
     color: white;
 }
 .Podio{
-    background-color:rebeccapurple;
+    width: 50%;
+    height: 350px;
+    background-color:white;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.Podio h2{
+    color: red;
+}
+.Contenedor{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Contenedor img{
+    height: 129px;
+    padding-right: 74px;
+}
+.Contenedor ol{
+    padding-left: 70px;
+}
+.Contenedor ol li{
+    text-align: left;
+    margin: 10px;
 }
 
 /*FOOTER*/
 footer{
     background-color: #222222;
-    margin-top: 35px;   
+    margin-top: 35px;
+    height: 150px;
 }
 .Fcontainer{
     display: flex;
@@ -82,10 +120,19 @@ footer{
 .Sublogo{
     display: flex;
     padding-right: 42px ;
+
+}
+.Sublogo h2{
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .Sublogo img{
     padding-right: 10px;
 }
-.Sublogo span{
+.Sublogo .GREEN{
     color: green;
+}
+.Sublogo span{
+    color: red;
 }
