@@ -1,72 +1,53 @@
-@import url("https://use.typekit.net/hdb4hwe.css");
-/* primero van los estilos generales*/
-/* los de h y los p*/
-/* lo mejor es siempre crear una clase antes que de tocar manualmente las caracteristicas en el html*/
-.title-imp{
-color:white;
+@import url("https://use.typekit.net/isi5hfe.css");
 
-
+/*----GENERALES----*/
+*{
+    font-family:Roboto;
 }
-#h2{ /*Tendria que tener algun elemento con id=h2 para que lo tome a estos estilos*/
-color: aqua;
-background-color: brown;
-font-weight: bold;
-font-family: 'Times New Roman', Times, serif;
-text-align: center;
-text-transform: uppercase;
-/*NO HAY JERARQUIA DENTRO DE ESTO, EL ORDEN NO IMPORTA, SE PUEDE USAR EL ORDEN ALFABETICO, PERO NO ES TAN USADO*/
-font-size: 2px;
-/*los Font-size son heredables, pero se sobreescriben para poder definir lo que tiene el hijo*/
-} 
-p{
-    font-family: montserrat, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    /*font-size: 2em; /*distinto de REM, este toma el valor de su padre, y lo multiplica x2, rem hace lo mismo pero tomadno el valor del navegador, el standart es 16px*/
+body{
+    margin: 0px;
 }
+/*----HEADER----*/
 .top{
-    background-color: black;
-}
-.top i{
-    font-family: montserrat, sans-serif;
-    font-weight: 50;
-    font-style: normal;
+    background-color: #222222 ;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.zona{
+    display: flex;
+    background-color: red;
+
+}
+.zona p{
+ padding: 30px;
 }
 .identidad{
-    background-color: #F0A83E;
+    background-color: #F0A83E ;
+    display: flex;
+    justify-content: space-between;
 }
 .identidad span{
     color: white;
 }
-.identidad img{
-  height: 30px;
+.logo{
+    display: flex;
+    width: 70%;
+    background-color: red;
 }
-nav a{
-    
-    font-family: montserrat, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: white;
-    
-}
-.pata{
-    align-items: center;
-    text-align: center;
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-footer{
-    background-color: #222222   ;
-    line-height: 30px;
 
+nav ul{
+    display: flex;
+    margin-right: 30px;
+}
+nav ul li{
+    margin: 10px 30px 0px 0px ;
 
 }
-footer p{
-    text-align: center;
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: white;
+/*----MAIN----*/
+.hero{
+background-image: url("/Petshop/img/bowl-and-pet-daities-on-green-background.svg");
+width: 1025px;
+height: 409px;
 }
+/*----FOOTER----*/
