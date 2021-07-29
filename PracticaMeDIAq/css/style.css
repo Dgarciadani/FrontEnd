@@ -1,0 +1,8 @@
+@media screen and(max-width:760px){ /*ESTO ES UN CONDICIONAL, EN CADO DE QUE LA PANTALLA TENGA MENOS DE X PIXELES: BLA BLA BLA*/
+    #card-section>div{ /*aca va el padre que tiene el hijo, al que hay que aplciarle las nuevas prodpiedades*/
+        flex-direction: column ;
+    }
+    .card{
+        width: 100%; /*ACA TOCO AL HIJO PARA QUE OCUPE TODO AL PADRE*/
+    }
+}

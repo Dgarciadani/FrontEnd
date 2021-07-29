@@ -27,35 +27,43 @@ body>div>p{
 header{
 background-color: var(--primary-color);
 height: 101px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
 }
 h1{
-    padding-top: 28px;
-    padding-left: 28px;
+ padding-left: 30px;
 }
 /*-----------MAIN------*/
 main{
     margin-top: 100px;
-    width: 70%;
     margin-right: auto;
     margin-left: auto;
 }
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
 .card{
     background-color: var(--tercer-color);
-    width: 27%;
+    width: 20%;
     text-align: center;
-    border-radius: 10px 10px 0px 0px;
-    padding-bottom: 18px;
-    display: inline-block;
-    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
 
 }
 .BG-Batman{
     background-image: url("../img/Batman-Back.png");
+    background-repeat: no-repeat;
     height: 193px;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+    background-size: cover;
 }
-img{
+main img{
     border-radius: 50%;
     z-index: 5;
     position: relative;
@@ -77,17 +85,39 @@ input{
     color: white;
     width: 40%;
     height: 40px;
-    margin-top: 25px;
-   
+    position: relative;
+    margin-top: 15px;
 }
 input:hover{
     background-color: var(--Secondary-color);
 }
 .BG-Harley{
     background-image: url("../img/Harley-back.png");
+    background-repeat: no-repeat;
     height: 193px;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+}
+.BG-WW{
+    background-image: url("../img/Ww-back.png");
+    background-repeat: no-repeat;
+    height: 193px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+}
+.BG-Superman{
+    background-image: url("../img/Sm-back.png");
+    background-repeat: no-repeat;
+    height: 193px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+}
+.card img,.card img{
+width: 120px;
+height: 120px;
 }
 .vector{
     background-image: url("../img/Cora.png");
@@ -104,8 +134,28 @@ input:hover{
 /*-----FOOTER----*/
 footer{
     background-color: var(--primary-color);
-    text-align: center;
     margin-top: 100px;
     padding: 10px;
     color: white;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+footer img{
+    position: relative;
+    left: 40%;
+    height: 37px;
+}
+footer p{
+position: absolute;
+
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px ) {
+    /*TABLETS*/
+}
+@media screen and (max-width: 600px ) {
+    /*SMARTPHONES*/
+    
 }
