@@ -1,198 +1,289 @@
 @import url("https://use.typekit.net/isi5hfe.css");
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+
 }
-:root{
-    --primary-color: #222222;
-    --secondary-color: #F0A83E;
-    --tercer-color:#3C2313;
-    --cuarto-color:#E5E5E5;
+:root {
+  --primary-color: #222222;
+  --secondary-color: #f0a83e;
+  --tercer-color: #3c2313;
+  --cuarto-color: #e5e5e5;
 }
-body{
-    font-family: roboto, sans-serif;
+body {
+    margin: 0px;
+  font-family: roboto, sans-serif;
 
 }
 /*-------HEADER-------*/
-.ofertas{
-    background-color: var(--primary-color);
-    height: 30px;
-    font-size: 12px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.ofertas {
+  background-color: var(--primary-color);
+  height: 30px;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.ofertas>p{ /*SI LE PONGO PIKITO SE LO APLICA AL PRIMERO QUE ENCUENTRA, NO A TODOS LOS HIJOS P*/
-    padding-left: 90px;
+.ofertas > p {
+  /*SI LE PONGO PIKITO SE LO APLICA AL PRIMERO QUE ENCUENTRA, NO A TODOS LOS HIJOS P*/
+  padding-left: 90px;
 }
-.pais{
-    padding-right: 40px;
-    display: flex;
+.pais {
+  padding-right: 40px;
+  display: flex;
 }
-ul li{
-    display: inline;
-    padding-right: 15px;
+ul li {
+  display: inline;
+  padding-right: 15px;
 }
-header{
-    background-color: var(--secondary-color);
-    display: flex;
-    justify-content: space-between;
-    height: 81px;
-    align-items: center;
+header {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  height: 81px;
+  align-items: center;
 }
-header span{
-    color: white;
+header span {
+  color: white;
 }
-h1{
-    font-size: 25px;
-    padding-left: 58px;
+h1 {
+  font-size: 25px;
+  padding-left: 58px;
 }
-header img{
-    width: 20px;
-    height: 20px;
+header img {
+  width: 20px;
+  height: 20px;
 }
-nav{
-    margin-right: 40PX;
+nav {
+  margin-right: 40px;
 }
-a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 }
-a:hover{
-    background-color: var(--tercer-color);
+a:hover {
+  background-color: var(--tercer-color);
 }
 /*-------MAIN-------*/
-.imghero{
-    background-image: url("../img/bowl-and-pet-daities-on-green-background.svg");
-    height: 500px ;
-    background-size: cover;
-    background-position: center;
+
+.imghero {
+  background-image: url("../img/bowl-and-pet-daities-on-green-background.svg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
 }
-.comederos{
-    width: 50%;
-    margin-left: auto;
-    text-align: center;
-    position: relative;
-    top:200px;
+.comederos {
+  width: 50%;
+  margin-left: auto;
+  text-align: center;
+  position: relative;
+  top: 200px;
 }
-h2{
-    color: var(--tercer-color);
-    background-color: white;
-    width: 50%;
-    padding: 8px 0px;
-    margin-left: auto;
-    margin-right: auto ;
-    
+h2 {
+  color: var(--tercer-color);
+  background-color: white;
+  width: 50%;
+  padding: 8px 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.comederos>p{
-    color: var(--tercer-color);
-    line-height: 50px;
+.comederos > p {
+  color: var(--tercer-color);
+  line-height: 50px;
 }
-input{
+input {
+  background-color: var(--secondary-color);
+  color: white;
+  width: 182px;
+  height: 50px;
+  border-color: transparent;
+}
+input:hover {
+  background-color: var(--tercer-color);
+}
+
+.productosdestacados {
+  padding-top: 50px;
+  text-align: center;
+}
+.productosdestacados img {
+  width: 50px;
+  height: 50px;
+}
+.productos {
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.churrasco {
+  background-image: url("../img/churrasquito.svg");
+  width: 25%;
+  height: 250px;
+  background-size: cover;
+}
+.comedero {
+  background-image: url("../img/comedero.svg");
+  width: 25%;
+  height: 250px;
+  background-size: cover;
+}
+.hueso {
+  background-image: url("../img/Huesito.svg");
+  width: 25%;
+  height: 250px;
+  background-size: cover;
+}
+.datos-productos {
+  text-align: center;
+}
+.datos-productos {
+  position: relative;
+  top: 290px;
+  color: var(--tercer-color);
+  line-height: 20px;
+  font-weight: bold;
+}
+h3 {
+  margin-top: 170px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.formcontainer>form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formcontainer>form>input {
+  margin: 10px 0px;
+  background-color: #3c2313;
+  border-radius: 20px;
+  width:100%;
+  transition: 0.2s;
+}
+form>input:hover{
+    background-color: #a75126;
+
+}
+.botones>input{
+border-radius: 20px;
+margin: 5px;
+width: 100px;
+height: 34px;
+transition: all;
+ transition-duration: 0.5s;
+}
+.botones>input:hover{
+    background-color: green ;
+}
+.reset{
+    background-color: gray;
+
+}
+.novedades{
     background-color: var(--secondary-color);
-    color: white;
-    width: 182px ;
-    height: 50px;
-    border-color:transparent ;
-
-}
-input:hover{
-    background-color: var(--tercer-color);
-}
-
-.productosdestacados{
-    padding-top: 50px;
-    text-align: center;
-}
-.productosdestacados img{
-    width: 50px;
-    height: 50px;
-}
-.productos{
-    margin-top: 50PX;
     display: flex;
-    gap:15px;
-    justify-content: center;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
 }
-.churrasco{
-    background-image: url("../img/churrasquito.svg");
-    width: 25%;
-    height: 250px;
-    background-size: cover;
+.nov-nov{
+    display: flex;
+    align-items: center;
 }
-.comedero{
-background-image: url("../img/comedero.svg");
-width: 25%;
-height: 250px;
-background-size: cover;
+.nov-nov>img{
+    color: white;
+    margin-left:  15px;
 }
-.hueso{
-background-image: url("../img/Huesito.svg");
-width: 25%;
-height: 250px;
-background-size: cover;
+.nov-nov>p{
+    color: white;
+    font-size:25PX ;
+    margin: 0PX 15PX;
 }
-.datos-productos{
-    text-align: center;
+.formulariosus{
+    display: flex;
 
+    width: 40% ;
+    justify-content:flex-end;
+}
+.formulariosus>form>input[type=email]{
+    background-color: white;
+    color: black;
+    border-radius: 15PX;
+    width: 270PX;
+    margin: 0px 10px;
+}
+.formulariosus>form>input[type=submit]{
+    border-radius: 20PX;
+    background-color: var(--tercer-color);
+    margin-right: 20PX;
+    width: 100px;
+    transition: all;
+    transition-duration: .2s;
+}
+.formulariosus>form>input[type=submit]:hover{
+    background-color: #a75126;
 }
 /*-------FOOTER-------*/
-footer{
-    background-color: var(--tercer-color);
+footer {
+  background-color: var(--tercer-color);
 }
-.container-footer{
- display: flex;
- justify-content: space-between;
- align-items: center;
- height: 280px;
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 280px;
 }
-.interacciones-footer{
-    display: flex;
-    width: 50%;
-    gap: 15px;
-    text-align:initial;
-    align-items: center;
-    margin-left: 40px;
-
+.interacciones-footer {
+  display: flex;
+  width: 50%;
+  gap: 15px;
+  text-align: initial;
+  align-items: center;
+  margin-left: 40px;
+  
 }
-.logo-footer{
-    width: 30%;
-    font-size: 23px;
-    margin-right: 40px;
-    
+.logo-footer {
+  width: 30%;
+  font-size: 23px;
+  margin-right: 40px;
 }
-.logo-footer span{
-    color: var(--secondary-color);
+.logo-footer span {
+  color: var(--secondary-color);
 }
-footer .fas{
-    font-size: 32px;
-    color: white;
-    
+footer .fas {
+  font-size: 32px;
+  color: white;
 }
-.interacciones{
-display: flex;
-flex-direction: column;
-width: 100%;
-gap: 20px;
-margin-left: 40px;
+.interacciones {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  margin-left: 40px;
 }
 
-.datos>p{
- color: white;
- font-size: 9px;
- line-height: 2px;
+.datos > p {
+  color: white;
+  font-size: 9px;
+  line-height: 2px;
 }
-.datos>h5{
-    color: white;
-    font-size: 13px;
-    line-height: 2px;
+.datos > h5 {
+  color: white;
+  font-size: 13px;
+  line-height: 2px;
+  margin: 26px 0px;
 }
-.pie{
-    background-color: var(--primary-color);
-    color: white;
-    text-align: center;
-    padding: 2PX 0PX;
+.pie {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2px 0px;
 }
-
-
