@@ -1,0 +1,187 @@
+ /* Estilos Generales */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    background-color: #ebebeb
+    ;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+}
+/*----------HEADER------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#222222;
+    align-items: center;
+    color: white;
+    padding: 10PX;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    color: red;
+}
+.logo img{
+    padding: 0px 10px;
+}
+header>nav>ul{
+    display:flex
+}
+nav>ul>li a{
+    padding: 5px;
+    color: white;
+
+}
+header .fas{
+    color:red;
+    padding: 0px 10PX;
+}
+/*----------MAIN------*/
+.banner{
+    background: blueviolet url("../img/background.png") no-repeat ;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{ 
+    font-size: 30PX;
+    padding: 30px;
+    font-weight: normal;
+    
+
+}
+.product__container{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    background: whitesmoke no-repeat cover;
+    background-size:cover;
+    background-color: white;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 320PX;
+    position: relative;
+    border-radius: 10px;
+
+}
+.card img{
+    position: relative;
+    margin-top: 30PX;
+}
+.card__info{
+    position: relative;
+    margin-top: 51px;
+
+}
+.card__info>small{
+    color: #619D00;
+}
+.container__estrella{
+    display: flex;
+    justify-content: space-around;
+
+}
+.producto__estrella{
+    background:red url("../img/banner1.svg") no-repeat;
+    background-size: cover;
+    height: 135px;
+    width: 25%;
+    border-radius: 10px;
+}
+.producto__estrella p{
+ font-size: 29PX;
+ color: white;
+ 
+ 
+}
+
+
+
+/*----------FOOTER------*/
+footer{
+    margin-top: 60px;
+}
+.arriba_footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    background-color:#222222;
+    color: white;
+    align-items: center;
+}
+.arriba_footer span{
+    color: red;
+    font-weight: normal;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+.footer__logo img{
+    padding: 0px 10px;
+}
+.footer__redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer__redes .fab{
+    padding: 10px;
+    height: 28px;
+    width: 28px;
+}
+.fa-twitter{
+ color: #14AED0;
+}
+.fa-facebook-f{
+color: #1476D0;
+}
+.fa-instagram{
+color: #CE0CFF;
+}
+.copy{
+    background-color:#C4C4C4;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width:769px){
+    html{
+        font-size: 10px;
+    }
+    .product__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
