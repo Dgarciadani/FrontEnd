@@ -1,0 +1,25 @@
+*{
+    font-weight: bold;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+.CONTENEDOR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    background-color: red;
+}
+h3::before{
+    content: "h";
+}
+footer{
+    position: absolute;
+   bottom: 0;
+   transform: rotate(100deg);
+}
